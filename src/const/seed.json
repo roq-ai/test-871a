@@ -1,0 +1,2672 @@
+[
+  {
+    "product": [
+      {
+        "id": "b4f601da-28b0-4a51-8e85-3af821a0fe66",
+        "name": "iPhone X",
+        "description": "High-end smartphone with advanced features",
+        "status": "Available",
+        "price": 74401,
+        "rental_price": 46724,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-23T20:41:43.208Z",
+        "updated_at": "2023-08-24T08:57:25.864Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50499422-4352-40d6-9c68-d1c48b5c4434",
+        "name": "Samsung Galaxy S10",
+        "description": "Flagship gaming console with stunning graphics",
+        "status": "Out of stock",
+        "price": 81024,
+        "rental_price": 43576,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-23T22:23:55.372Z",
+        "updated_at": "2023-08-24T09:31:52.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "888a5c6d-c56e-49a2-97e4-aff5eba3d1f8",
+        "name": "Sony PlayStation 4",
+        "description": "Professional-grade DSLR camera for photography enthusiasts",
+        "status": "Pre-order",
+        "price": 43683,
+        "rental_price": 28886,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T15:01:08.786Z",
+        "updated_at": "2023-08-24T11:34:20.699Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2546a203-f1d0-4510-a22b-208ec9566cd1",
+        "name": "Canon EOS 5D Mark IV",
+        "description": "Powerful laptop for creative professionals",
+        "status": "Limited stock",
+        "price": 50063,
+        "rental_price": 81064,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-24T18:59:50.894Z",
+        "updated_at": "2023-08-24T06:07:24.506Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5bd147b-7ced-4145-8a8f-11178a88b5cc",
+        "name": "MacBook Pro",
+        "description": "Smart TV with 4K resolution and smart features",
+        "status": "On sale",
+        "price": 74662,
+        "rental_price": 16864,
+        "rental_status": "On sale for rent",
+        "created_at": "2023-08-24T13:35:50.903Z",
+        "updated_at": "2023-08-24T11:56:27.089Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "85fe85d9-f1ab-44f9-902c-203aee4833d7",
+        "rating": 86895,
+        "comment": "Great product!",
+        "date": "2023-08-24T06:45:06.484Z",
+        "created_at": "2023-08-24T08:21:16.555Z",
+        "updated_at": "2023-08-24T13:06:35.052Z",
+        "product_id": "888a5c6d-c56e-49a2-97e4-aff5eba3d1f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3e54a76-6f1a-4d3f-bd0a-63b066e5825b",
+        "rating": 49512,
+        "comment": "Highly recommended!",
+        "date": "2023-08-24T12:46:15.698Z",
+        "created_at": "2023-08-24T17:38:42.625Z",
+        "updated_at": "2023-08-23T23:11:23.167Z",
+        "product_id": "888a5c6d-c56e-49a2-97e4-aff5eba3d1f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec109e2b-8d35-429d-b72d-0f7f1455152b",
+        "rating": 99161,
+        "comment": "Excellent customer service!",
+        "date": "2023-08-24T05:30:12.228Z",
+        "created_at": "2023-08-23T23:03:57.988Z",
+        "updated_at": "2023-08-24T11:57:52.510Z",
+        "product_id": "b4f601da-28b0-4a51-8e85-3af821a0fe66",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18732ab9-c19d-4d8a-aa08-02aa7e28031d",
+        "rating": 33853,
+        "comment": "Impressive quality!",
+        "date": "2023-08-24T14:27:35.681Z",
+        "created_at": "2023-08-24T12:18:14.793Z",
+        "updated_at": "2023-08-24T00:56:18.224Z",
+        "product_id": "c5bd147b-7ced-4145-8a8f-11178a88b5cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2abbe69-77e6-4652-8359-4b5794e0d0b4",
+        "rating": 12769,
+        "comment": "Love it!",
+        "date": "2023-08-24T06:20:04.988Z",
+        "created_at": "2023-08-24T10:33:11.292Z",
+        "updated_at": "2023-08-24T05:49:33.827Z",
+        "product_id": "2546a203-f1d0-4510-a22b-208ec9566cd1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "c82a6484-8bfc-4e5c-b501-5ea9fa44717c",
+        "start_date": "2023-08-23T23:22:40.209Z",
+        "end_date": "2023-08-24T11:28:25.177Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T17:30:26.444Z",
+        "updated_at": "2023-08-24T18:13:27.952Z",
+        "product_id": "c5bd147b-7ced-4145-8a8f-11178a88b5cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62d82b8f-bcfb-4806-8eb9-32bd7cb544c4",
+        "start_date": "2023-08-24T15:49:15.489Z",
+        "end_date": "2023-08-23T22:41:32.422Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-23T23:40:31.963Z",
+        "updated_at": "2023-08-23T22:23:41.381Z",
+        "product_id": "888a5c6d-c56e-49a2-97e4-aff5eba3d1f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5845230b-67db-4700-a167-302563411569",
+        "start_date": "2023-08-23T21:44:23.181Z",
+        "end_date": "2023-08-23T23:35:43.792Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T00:45:47.360Z",
+        "updated_at": "2023-08-23T20:09:29.431Z",
+        "product_id": "2546a203-f1d0-4510-a22b-208ec9566cd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0c27539-5503-49cf-ba9e-5206fde93dd2",
+        "start_date": "2023-08-24T02:09:47.360Z",
+        "end_date": "2023-08-24T17:00:28.048Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T23:52:02.616Z",
+        "updated_at": "2023-08-23T23:51:57.018Z",
+        "product_id": "c5bd147b-7ced-4145-8a8f-11178a88b5cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cec6142f-7f62-40e7-8d63-10225d9b1f78",
+        "start_date": "2023-08-24T06:18:53.953Z",
+        "end_date": "2023-08-24T03:17:15.317Z",
+        "status": "Expired",
+        "created_at": "2023-08-23T19:25:19.812Z",
+        "updated_at": "2023-08-24T08:28:22.178Z",
+        "product_id": "50499422-4352-40d6-9c68-d1c48b5c4434",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "1942c90b-7f9b-4d1e-97f7-10479cb5e7e5",
+        "purchase_date": "2023-08-24T10:56:26.994Z",
+        "status": "Pending",
+        "price": 44445,
+        "created_at": "2023-08-23T22:03:39.193Z",
+        "updated_at": "2023-08-24T12:31:02.373Z",
+        "product_id": "50499422-4352-40d6-9c68-d1c48b5c4434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d5c339e-8c10-4643-b9d7-e2dc65fe6a6b",
+        "purchase_date": "2023-08-24T11:07:09.826Z",
+        "status": "Processing",
+        "price": 1628,
+        "created_at": "2023-08-23T23:31:32.959Z",
+        "updated_at": "2023-08-23T19:55:21.265Z",
+        "product_id": "c5bd147b-7ced-4145-8a8f-11178a88b5cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdd7dac2-ea51-4268-b1b1-8d06048e3788",
+        "purchase_date": "2023-08-24T01:34:37.844Z",
+        "status": "Shipped",
+        "price": 42686,
+        "created_at": "2023-08-24T06:40:11.070Z",
+        "updated_at": "2023-08-24T00:20:56.568Z",
+        "product_id": "c5bd147b-7ced-4145-8a8f-11178a88b5cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "686ccfdf-1135-4644-acec-2230e701bcff",
+        "purchase_date": "2023-08-24T02:37:30.611Z",
+        "status": "Delivered",
+        "price": 86508,
+        "created_at": "2023-08-23T22:41:22.083Z",
+        "updated_at": "2023-08-24T12:05:05.702Z",
+        "product_id": "2546a203-f1d0-4510-a22b-208ec9566cd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f33d8697-998e-4aa3-a5e4-b8aa3f5b9104",
+        "purchase_date": "2023-08-24T02:54:41.577Z",
+        "status": "Cancelled",
+        "price": 86370,
+        "created_at": "2023-08-24T05:13:32.090Z",
+        "updated_at": "2023-08-24T10:46:06.623Z",
+        "product_id": "2546a203-f1d0-4510-a22b-208ec9566cd1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "21a396fe-57c0-46fb-9be6-7865f2b68473",
+        "email": "Romaine_White@gmail.com",
+        "firstName": "Mafalda",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1178.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7fa7f933-5b85-40cc-970f-527f40c286e6",
+        "email": "Brenna_Ziemann50@gmail.com",
+        "firstName": "Ophelia",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/355.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e2ecd2b-c1e5-4236-bb36-4d6ad1e91ab8",
+        "email": "Edna.Torp16@gmail.com",
+        "firstName": "Sandra",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25103826",
+        "tenantId": null
+      },
+      {
+        "reference": "95634ec8-01f9-4139-b0ca-7cc4f4694d93",
+        "email": "Fae_Klocko-Reinger@yahoo.com",
+        "firstName": "Douglas",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1c38aaee-38fa-4a19-95bc-de30b9f104f1",
+        "email": "Damon29@gmail.com",
+        "firstName": "Germaine",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1033.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "d1d2666e-30f8-4147-9817-e917013a3649",
+        "name": "iPhone 12",
+        "description": "The latest iPhone model",
+        "status": "Available",
+        "price": 67395,
+        "rental_price": 77907,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T17:44:48.612Z",
+        "updated_at": "2023-08-23T20:29:04.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "name": "Samsung Galaxy S21",
+        "description": "Powerful Android smartphone",
+        "status": "Out of stock",
+        "price": 79773,
+        "rental_price": 24472,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T04:00:15.819Z",
+        "updated_at": "2023-08-24T12:19:51.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80d68896-8255-436c-9e9c-998d45cb22fe",
+        "name": "MacBook Pro",
+        "description": "High-performance laptop",
+        "status": "Coming soon",
+        "price": 38210,
+        "rental_price": 83780,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T10:47:06.039Z",
+        "updated_at": "2023-08-24T13:32:37.175Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f4fe16b-f886-4476-b741-9722fe59dfd4",
+        "name": "Sony PlayStation 5",
+        "description": "Next-gen gaming console",
+        "status": "Limited edition",
+        "price": 63223,
+        "rental_price": 75684,
+        "rental_status": "Limited edition for rent",
+        "created_at": "2023-08-23T21:58:06.984Z",
+        "updated_at": "2023-08-24T06:12:31.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "name": "Nike Air Max",
+        "description": "Stylish athletic shoes",
+        "status": "Pre-order",
+        "price": 31994,
+        "rental_price": 98228,
+        "rental_status": "Pre-order for rent",
+        "created_at": "2023-08-24T12:30:09.338Z",
+        "updated_at": "2023-08-24T18:31:32.730Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "fa3c3f25-a14b-4558-9d04-72301ae689a2",
+        "rating": 29177,
+        "comment": "Great product!",
+        "date": "2023-08-23T23:30:28.853Z",
+        "created_at": "2023-08-24T18:02:37.370Z",
+        "updated_at": "2023-08-24T08:29:47.031Z",
+        "product_id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89d1b0f8-29d8-40d6-9dae-646135d48b73",
+        "rating": 682,
+        "comment": "Highly recommended",
+        "date": "2023-08-23T22:20:07.285Z",
+        "created_at": "2023-08-24T01:28:36.629Z",
+        "updated_at": "2023-08-24T04:55:47.414Z",
+        "product_id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32b31381-bd26-4925-bc44-96f92dbde84c",
+        "rating": 4337,
+        "comment": "Not worth the price",
+        "date": "2023-08-24T13:10:33.162Z",
+        "created_at": "2023-08-23T23:05:17.854Z",
+        "updated_at": "2023-08-24T02:07:53.220Z",
+        "product_id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07005844-9a50-43f1-986f-151ef4b4cfd7",
+        "rating": 39707,
+        "comment": "Average quality",
+        "date": "2023-08-24T01:55:03.685Z",
+        "created_at": "2023-08-24T01:49:09.137Z",
+        "updated_at": "2023-08-24T10:27:44.281Z",
+        "product_id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bec9e2d-450c-4803-b874-0b03398d2843",
+        "rating": 91410,
+        "comment": "Excellent customer service",
+        "date": "2023-08-24T05:03:22.751Z",
+        "created_at": "2023-08-24T06:02:32.663Z",
+        "updated_at": "2023-08-24T12:45:37.643Z",
+        "product_id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "11dcdb7a-5551-4769-a40e-206ec268318d",
+        "start_date": "2023-08-23T21:47:16.356Z",
+        "end_date": "2023-08-24T04:24:17.250Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T09:05:55.599Z",
+        "updated_at": "2023-08-24T16:59:20.131Z",
+        "product_id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c919236d-1e87-4bd1-af7e-9e993e70650d",
+        "start_date": "2023-08-24T17:02:46.360Z",
+        "end_date": "2023-08-24T12:17:07.660Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T15:26:13.438Z",
+        "updated_at": "2023-08-24T13:24:08.709Z",
+        "product_id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b5f5c7b-04a4-4806-876a-8afb44389bc7",
+        "start_date": "2023-08-24T17:23:52.069Z",
+        "end_date": "2023-08-24T17:02:43.146Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T00:21:41.615Z",
+        "updated_at": "2023-08-23T23:03:20.286Z",
+        "product_id": "80d68896-8255-436c-9e9c-998d45cb22fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "344c55ea-24c1-4d81-baf9-fc4828ef9b24",
+        "start_date": "2023-08-24T12:16:38.261Z",
+        "end_date": "2023-08-23T21:29:49.056Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:34:13.169Z",
+        "updated_at": "2023-08-24T14:57:40.081Z",
+        "product_id": "8f4fe16b-f886-4476-b741-9722fe59dfd4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2701412e-5552-41a5-8ae4-4eb65cf98087",
+        "start_date": "2023-08-24T10:02:13.185Z",
+        "end_date": "2023-08-24T00:41:36.181Z",
+        "status": "Expired",
+        "created_at": "2023-08-24T09:35:36.472Z",
+        "updated_at": "2023-08-24T09:16:47.887Z",
+        "product_id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "b5e77416-92f8-48ba-8482-4c6c55f67911",
+        "purchase_date": "2023-08-23T23:07:23.801Z",
+        "status": "Successful",
+        "price": 13327,
+        "created_at": "2023-08-24T02:18:16.834Z",
+        "updated_at": "2023-08-24T01:41:21.117Z",
+        "product_id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adaa6d86-25e5-4f3a-b8da-a536509cacbf",
+        "purchase_date": "2023-08-24T01:52:05.810Z",
+        "status": "Pending payment",
+        "price": 41406,
+        "created_at": "2023-08-24T13:45:30.701Z",
+        "updated_at": "2023-08-23T19:14:54.672Z",
+        "product_id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4be98caf-c897-4311-b2b4-03e954fa4ae0",
+        "purchase_date": "2023-08-24T16:29:11.291Z",
+        "status": "Cancelled",
+        "price": 40354,
+        "created_at": "2023-08-23T21:28:06.920Z",
+        "updated_at": "2023-08-24T06:59:02.106Z",
+        "product_id": "3397deef-1706-4b7c-9273-4465b5bac55e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1421a333-dccd-48a8-8a1b-1c756901cc0b",
+        "purchase_date": "2023-08-24T00:35:59.184Z",
+        "status": "Refunded",
+        "price": 74731,
+        "created_at": "2023-08-23T22:11:32.452Z",
+        "updated_at": "2023-08-24T10:39:19.541Z",
+        "product_id": "8a34be4f-ce6a-4f37-98e9-4c44bc9668f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f2639e8-ebc0-48a9-b28d-76a28a7faeb8",
+        "purchase_date": "2023-08-24T18:55:42.446Z",
+        "status": "Delivered",
+        "price": 50907,
+        "created_at": "2023-08-24T10:41:31.926Z",
+        "updated_at": "2023-08-23T19:52:07.589Z",
+        "product_id": "8f4fe16b-f886-4476-b741-9722fe59dfd4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "812cd8ae-c1ec-4eb9-b316-8cf190cad0b8",
+        "email": "Ola_MacGyver80@yahoo.com",
+        "firstName": "Hubert",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ae8bef1-0ee1-4cfa-a652-4e7f218ec00c",
+        "email": "Leanna0@yahoo.com",
+        "firstName": "Wiley",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0fe7b4fe-99bf-4762-84ad-38c462d0c62b",
+        "email": "Marlin0@hotmail.com",
+        "firstName": "Benton",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a36633d-b702-4f58-8e75-2cdaabd07dfa",
+        "email": "Reba_Schimmel51@hotmail.com",
+        "firstName": "Jeffry",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18441414",
+        "tenantId": null
+      },
+      {
+        "reference": "d74a3d82-4c6f-486d-9b32-0cc030d570a7",
+        "email": "Edwina.Schuster@hotmail.com",
+        "firstName": "Leonora",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48586456",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "b14450e7-786b-4819-b06b-d9a13bf3e728",
+        "name": "iPhone X",
+        "description": "The latest iPhone model with advanced features.",
+        "status": "Available",
+        "price": 97913,
+        "rental_price": 38357,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T11:41:35.211Z",
+        "updated_at": "2023-08-24T16:58:55.909Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f88ac477-bcfc-4c8b-8994-b95589731ace",
+        "name": "Samsung Galaxy S9",
+        "description": "A powerful Android smartphone with a stunning display.",
+        "status": "Out of stock",
+        "price": 32990,
+        "rental_price": 33555,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T11:26:26.618Z",
+        "updated_at": "2023-08-23T19:50:43.290Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddd9ec3f-e971-4791-afa5-85d04e687d3f",
+        "name": "Google Pixel 2",
+        "description": "A high-end smartphone with an excellent camera.",
+        "status": "Coming soon",
+        "price": 77053,
+        "rental_price": 17626,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T03:26:49.176Z",
+        "updated_at": "2023-08-24T08:22:44.433Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af0ab06e-8d1e-4383-9f7a-17e87aea35b0",
+        "name": "Sony PlayStation 4",
+        "description": "A popular gaming console with a vast library of games.",
+        "status": "Limited stock",
+        "price": 95656,
+        "rental_price": 74301,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-24T12:00:06.378Z",
+        "updated_at": "2023-08-24T06:30:50.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5bcb49c-d46f-48f7-95f4-9074ef664f6a",
+        "name": "Nintendo Switch",
+        "description": "A versatile gaming console that can be used as a handheld device or connected to a TV.",
+        "status": "Pre-order",
+        "price": 88297,
+        "rental_price": 79739,
+        "rental_status": "Pre-order for rent",
+        "created_at": "2023-08-24T16:23:54.991Z",
+        "updated_at": "2023-08-24T13:31:43.100Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "daeb79b0-98b8-43b1-8c51-40efa899e7a4",
+        "rating": 52835,
+        "comment": "Great product!",
+        "date": "2023-08-23T22:36:28.493Z",
+        "created_at": "2023-08-24T14:06:03.952Z",
+        "updated_at": "2023-08-24T13:58:00.608Z",
+        "product_id": "e5bcb49c-d46f-48f7-95f4-9074ef664f6a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0ba6900-a0d0-4314-b88b-b5db0be69ebd",
+        "rating": 28411,
+        "comment": "Highly recommended.",
+        "date": "2023-08-24T08:02:33.107Z",
+        "created_at": "2023-08-24T13:13:40.547Z",
+        "updated_at": "2023-08-24T02:57:12.844Z",
+        "product_id": "ddd9ec3f-e971-4791-afa5-85d04e687d3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b38f14d-dfa2-4ec3-9581-91c07af5efd9",
+        "rating": 23593,
+        "comment": "Not satisfied with the quality.",
+        "date": "2023-08-24T18:23:57.362Z",
+        "created_at": "2023-08-24T10:20:07.890Z",
+        "updated_at": "2023-08-24T10:22:29.177Z",
+        "product_id": "f88ac477-bcfc-4c8b-8994-b95589731ace",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6ddc661-6616-4796-9aec-d05f8ce97901",
+        "rating": 81121,
+        "comment": "Excellent customer service.",
+        "date": "2023-08-24T18:29:57.340Z",
+        "created_at": "2023-08-24T03:47:12.625Z",
+        "updated_at": "2023-08-24T18:20:55.441Z",
+        "product_id": "af0ab06e-8d1e-4383-9f7a-17e87aea35b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acdf4110-9f8d-4aab-beea-082e71ce187d",
+        "rating": 88964,
+        "comment": "Impressive performance.",
+        "date": "2023-08-24T07:11:18.610Z",
+        "created_at": "2023-08-24T12:08:50.128Z",
+        "updated_at": "2023-08-24T18:02:19.345Z",
+        "product_id": "ddd9ec3f-e971-4791-afa5-85d04e687d3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "720de008-b3fe-4a6e-baf4-5ac4ed115c55",
+        "start_date": "2023-08-24T16:16:58.843Z",
+        "end_date": "2023-08-24T11:46:02.056Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T15:39:14.487Z",
+        "updated_at": "2023-08-24T06:24:39.028Z",
+        "product_id": "ddd9ec3f-e971-4791-afa5-85d04e687d3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e83fe13e-3e5c-4cc2-8a58-fab8413d990a",
+        "start_date": "2023-08-24T06:38:50.438Z",
+        "end_date": "2023-08-24T15:37:41.458Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T06:08:14.222Z",
+        "updated_at": "2023-08-23T23:28:53.982Z",
+        "product_id": "b14450e7-786b-4819-b06b-d9a13bf3e728",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f17a9e4-c87d-41bf-a6d2-2f05d1cba782",
+        "start_date": "2023-08-24T11:07:26.166Z",
+        "end_date": "2023-08-24T13:50:02.533Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T07:07:12.136Z",
+        "updated_at": "2023-08-24T03:15:39.813Z",
+        "product_id": "b14450e7-786b-4819-b06b-d9a13bf3e728",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90cbafc7-b32b-4441-9bf1-c449206418d8",
+        "start_date": "2023-08-23T21:22:12.497Z",
+        "end_date": "2023-08-24T07:30:50.245Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T21:34:31.016Z",
+        "updated_at": "2023-08-23T19:18:22.394Z",
+        "product_id": "e5bcb49c-d46f-48f7-95f4-9074ef664f6a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0f8c02d-1244-4a54-a585-a8fc9bbe4609",
+        "start_date": "2023-08-24T08:38:00.976Z",
+        "end_date": "2023-08-24T19:05:26.668Z",
+        "status": "Expired",
+        "created_at": "2023-08-23T23:54:53.922Z",
+        "updated_at": "2023-08-24T05:26:54.292Z",
+        "product_id": "af0ab06e-8d1e-4383-9f7a-17e87aea35b0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "d3f8b736-f888-43d1-a401-8b2b7c85bb52",
+        "purchase_date": "2023-08-24T08:00:38.232Z",
+        "status": "Completed",
+        "price": 14892,
+        "created_at": "2023-08-24T09:37:37.997Z",
+        "updated_at": "2023-08-24T09:32:22.229Z",
+        "product_id": "af0ab06e-8d1e-4383-9f7a-17e87aea35b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1635f5e1-a362-4336-8a1a-31d453381741",
+        "purchase_date": "2023-08-24T03:48:51.690Z",
+        "status": "Pending",
+        "price": 30426,
+        "created_at": "2023-08-24T13:20:03.796Z",
+        "updated_at": "2023-08-24T14:54:13.781Z",
+        "product_id": "f88ac477-bcfc-4c8b-8994-b95589731ace",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6289527f-13d2-4410-a406-b9f733c11403",
+        "purchase_date": "2023-08-24T09:53:47.420Z",
+        "status": "Cancelled",
+        "price": 46234,
+        "created_at": "2023-08-23T20:59:25.849Z",
+        "updated_at": "2023-08-24T10:59:34.291Z",
+        "product_id": "b14450e7-786b-4819-b06b-d9a13bf3e728",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31e20b5c-c18a-43cb-ab89-57affd41426e",
+        "purchase_date": "2023-08-24T18:58:28.899Z",
+        "status": "Refunded",
+        "price": 95122,
+        "created_at": "2023-08-24T16:35:43.020Z",
+        "updated_at": "2023-08-24T13:32:01.828Z",
+        "product_id": "af0ab06e-8d1e-4383-9f7a-17e87aea35b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8bc6040-5a73-45e2-ac22-65f661f735c1",
+        "purchase_date": "2023-08-24T12:03:28.875Z",
+        "status": "Processing",
+        "price": 77074,
+        "created_at": "2023-08-24T16:06:02.065Z",
+        "updated_at": "2023-08-24T01:55:36.323Z",
+        "product_id": "af0ab06e-8d1e-4383-9f7a-17e87aea35b0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1c9fb03b-00c1-41a5-ae50-4f7c726ce7d9",
+        "email": "Yvonne_Halvorson@yahoo.com",
+        "firstName": "Naomi",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32393489",
+        "tenantId": null
+      },
+      {
+        "reference": "a434d5ee-b235-4453-bc2e-d4434502098a",
+        "email": "Karley_Donnelly8@hotmail.com",
+        "firstName": "Dortha",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/894.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "918a0fa8-1078-41e2-b206-8af338a16071",
+        "email": "Payton_Muller77@hotmail.com",
+        "firstName": "Melissa",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91883328",
+        "tenantId": null
+      },
+      {
+        "reference": "8f7ed07f-8437-4b69-8063-ead1c0163383",
+        "email": "Helene.Olson@yahoo.com",
+        "firstName": "Evie",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/108.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb0782e6-aada-4c23-a2c4-b6a1f2f41832",
+        "email": "Wilfrid_Hodkiewicz61@gmail.com",
+        "firstName": "Fiona",
+        "lastName": "Casper-Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/599.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "8425ded9-c737-4a94-86c8-f4f0f47f9428",
+        "name": "iPhone X",
+        "description": "High-end smartphone with advanced features",
+        "status": "Available",
+        "price": 41224,
+        "rental_price": 10561,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T10:46:58.659Z",
+        "updated_at": "2023-08-24T12:23:08.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5002b65-87d9-4bad-af23-838c9ee40fc4",
+        "name": "Samsung Galaxy S10",
+        "description": "Flagship smartphone with excellent camera",
+        "status": "Out of stock",
+        "price": 94367,
+        "rental_price": 63537,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T08:00:52.478Z",
+        "updated_at": "2023-08-24T01:49:01.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74909b42-1e54-41d1-bf2f-83c1514e50b5",
+        "name": "Google Pixel 3",
+        "description": "Premium gaming console with stunning graphics",
+        "status": "Pre-order",
+        "price": 23041,
+        "rental_price": 2074,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T00:02:49.620Z",
+        "updated_at": "2023-08-24T17:19:42.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81533dac-ebad-4473-8d30-60517f85e607",
+        "name": "Sony PlayStation 4",
+        "description": "Portable gaming console for on-the-go gaming",
+        "status": "Limited stock",
+        "price": 32545,
+        "rental_price": 63793,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-24T14:29:59.935Z",
+        "updated_at": "2023-08-24T11:29:55.770Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "name": "Nintendo Switch",
+        "description": "Smartphone with top-notch camera capabilities",
+        "status": "In stock",
+        "price": 52967,
+        "rental_price": 69573,
+        "rental_status": "In stock for rent",
+        "created_at": "2023-08-24T16:00:31.563Z",
+        "updated_at": "2023-08-23T23:08:59.618Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "59376f9a-52b9-4223-b97c-32b4d17c59e3",
+        "rating": 14830,
+        "comment": "Great product!",
+        "date": "2023-08-24T10:39:27.331Z",
+        "created_at": "2023-08-24T01:28:56.954Z",
+        "updated_at": "2023-08-24T00:09:09.198Z",
+        "product_id": "c5002b65-87d9-4bad-af23-838c9ee40fc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "645776c4-dbf2-4aca-b13b-b086401ad68d",
+        "rating": 94327,
+        "comment": "Highly recommended",
+        "date": "2023-08-24T16:23:16.325Z",
+        "created_at": "2023-08-24T08:26:57.545Z",
+        "updated_at": "2023-08-23T22:33:37.038Z",
+        "product_id": "74909b42-1e54-41d1-bf2f-83c1514e50b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68a22a2d-b5b4-47fd-aa04-422d90421b56",
+        "rating": 91823,
+        "comment": "Not satisfied with the quality",
+        "date": "2023-08-24T16:57:03.468Z",
+        "created_at": "2023-08-23T22:34:54.584Z",
+        "updated_at": "2023-08-24T07:05:03.246Z",
+        "product_id": "81533dac-ebad-4473-8d30-60517f85e607",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e577124-09a4-4568-9b55-ec7385217595",
+        "rating": 52368,
+        "comment": "Impressive performance",
+        "date": "2023-08-24T10:32:28.266Z",
+        "created_at": "2023-08-24T00:03:43.755Z",
+        "updated_at": "2023-08-24T09:31:06.359Z",
+        "product_id": "81533dac-ebad-4473-8d30-60517f85e607",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "255b2736-456f-4356-8b86-8a8fe3e6d06a",
+        "rating": 96018,
+        "comment": "Average product",
+        "date": "2023-08-24T10:40:34.285Z",
+        "created_at": "2023-08-24T18:45:32.875Z",
+        "updated_at": "2023-08-23T23:06:06.464Z",
+        "product_id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "afc3c347-06ec-4d0d-b576-0ffafa274f0f",
+        "start_date": "2023-08-23T20:27:29.896Z",
+        "end_date": "2023-08-24T09:45:28.802Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T15:03:12.145Z",
+        "updated_at": "2023-08-24T07:45:36.300Z",
+        "product_id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12aeda19-11d2-4857-a8bc-5aeb4ac2f04c",
+        "start_date": "2023-08-24T12:59:45.357Z",
+        "end_date": "2023-08-24T07:35:04.136Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T14:22:48.393Z",
+        "updated_at": "2023-08-24T10:50:53.912Z",
+        "product_id": "74909b42-1e54-41d1-bf2f-83c1514e50b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e6ca3e6-fc69-4b23-bef1-d8af85b504b0",
+        "start_date": "2023-08-24T10:30:41.573Z",
+        "end_date": "2023-08-24T03:11:34.519Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T00:56:02.862Z",
+        "updated_at": "2023-08-24T08:22:40.943Z",
+        "product_id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc30c6f4-f9a6-41a9-880f-4a44f536db50",
+        "start_date": "2023-08-23T20:28:44.896Z",
+        "end_date": "2023-08-24T15:57:09.966Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:14:18.970Z",
+        "updated_at": "2023-08-24T17:11:20.163Z",
+        "product_id": "74909b42-1e54-41d1-bf2f-83c1514e50b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95aec5a0-f773-4484-8d22-57306466f86b",
+        "start_date": "2023-08-23T22:53:11.585Z",
+        "end_date": "2023-08-24T00:08:02.093Z",
+        "status": "Expired",
+        "created_at": "2023-08-24T02:37:20.577Z",
+        "updated_at": "2023-08-24T18:44:14.787Z",
+        "product_id": "8425ded9-c737-4a94-86c8-f4f0f47f9428",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "f2a141e8-9d68-4a63-a92e-dda3d1c915ac",
+        "purchase_date": "2023-08-24T17:37:22.496Z",
+        "status": "Successful",
+        "price": 63507,
+        "created_at": "2023-08-24T15:28:13.556Z",
+        "updated_at": "2023-08-24T02:18:12.088Z",
+        "product_id": "74909b42-1e54-41d1-bf2f-83c1514e50b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "531409ff-7d78-4f5c-939b-f44a021cd714",
+        "purchase_date": "2023-08-23T23:56:39.693Z",
+        "status": "Pending",
+        "price": 60353,
+        "created_at": "2023-08-24T11:38:09.082Z",
+        "updated_at": "2023-08-24T00:28:51.897Z",
+        "product_id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1871059-b120-43d2-8742-ac2cbba3efdd",
+        "purchase_date": "2023-08-24T16:14:10.926Z",
+        "status": "Cancelled",
+        "price": 20059,
+        "created_at": "2023-08-24T18:30:39.648Z",
+        "updated_at": "2023-08-23T19:36:08.564Z",
+        "product_id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f747bcc-0932-435a-9e39-758bc4aa7dc7",
+        "purchase_date": "2023-08-24T01:31:01.351Z",
+        "status": "Refunded",
+        "price": 96120,
+        "created_at": "2023-08-24T16:36:16.569Z",
+        "updated_at": "2023-08-24T07:38:26.196Z",
+        "product_id": "67ff695d-5b13-4e1f-9c90-9c9c053e7463",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5c124ab-bd27-4e55-985a-52ec81c1cfbb",
+        "purchase_date": "2023-08-24T16:35:27.685Z",
+        "status": "Failed",
+        "price": 80183,
+        "created_at": "2023-08-24T16:22:09.955Z",
+        "updated_at": "2023-08-24T06:16:13.256Z",
+        "product_id": "c5002b65-87d9-4bad-af23-838c9ee40fc4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "038e803e-4e57-4658-874f-9a958229f72a",
+        "email": "William86@hotmail.com",
+        "firstName": "Antonetta",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c349b8c-1f36-4a70-9674-204ec722a87c",
+        "email": "Charles56@yahoo.com",
+        "firstName": "Marianna",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56457395",
+        "tenantId": null
+      },
+      {
+        "reference": "a0de586b-73af-4c7f-91ad-700231e3b59c",
+        "email": "Elyssa48@hotmail.com",
+        "firstName": "Enrique",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22975354",
+        "tenantId": null
+      },
+      {
+        "reference": "9a27f488-b2c5-4507-a506-6219cd6eaf28",
+        "email": "Fred_Ernser-Wuckert39@hotmail.com",
+        "firstName": "Kylee",
+        "lastName": "McClure-Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77b1917d-3489-4adc-a359-177c8a0eaf15",
+        "email": "Cydney.Zemlak7@yahoo.com",
+        "firstName": "Sunny",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/785.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "0e9d0dbe-ef30-4f18-8842-2316cf5ce741",
+        "name": "iPhone 12",
+        "description": "High-end smartphone",
+        "status": "Available",
+        "price": 87865,
+        "rental_price": 37285,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T04:39:20.860Z",
+        "updated_at": "2023-08-23T19:55:40.320Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cbd3a7a-e8e6-46ad-8f57-0b87855ce143",
+        "name": "Samsung Galaxy S21",
+        "description": "Flagship gaming console",
+        "status": "Out of stock",
+        "price": 38697,
+        "rental_price": 91491,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T09:30:48.032Z",
+        "updated_at": "2023-08-24T00:28:03.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93065ce7-94d6-4cd2-956b-f0111b989866",
+        "name": "Sony PlayStation 5",
+        "description": "Professional-grade camera",
+        "status": "Pre-order",
+        "price": 77682,
+        "rental_price": 79487,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T16:50:05.642Z",
+        "updated_at": "2023-08-23T22:46:58.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "177827a6-0c4e-4ef8-9791-458757879e71",
+        "name": "Canon EOS R5",
+        "description": "Powerful laptop for productivity",
+        "status": "Limited stock",
+        "price": 92772,
+        "rental_price": 579,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-23T21:59:11.826Z",
+        "updated_at": "2023-08-24T18:32:18.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbcc85b8-ee68-4b3c-8384-517bcc84e62b",
+        "name": "Dell XPS 15",
+        "description": "Ultra HD monitor",
+        "status": "Coming soon",
+        "price": 63424,
+        "rental_price": 76789,
+        "rental_status": "Out of stock for rent",
+        "created_at": "2023-08-24T16:22:45.463Z",
+        "updated_at": "2023-08-24T14:29:03.675Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "b3aef16f-3bc9-4c69-945d-92cdf638122d",
+        "rating": 85390,
+        "comment": "Great product!",
+        "date": "2023-08-24T02:16:25.007Z",
+        "created_at": "2023-08-24T08:22:00.099Z",
+        "updated_at": "2023-08-24T12:57:04.641Z",
+        "product_id": "93065ce7-94d6-4cd2-956b-f0111b989866",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05762ad8-57c5-4a46-8ce9-da01dd8d0fc4",
+        "rating": 92656,
+        "comment": "Highly recommended",
+        "date": "2023-08-24T06:43:44.823Z",
+        "created_at": "2023-08-24T16:14:28.022Z",
+        "updated_at": "2023-08-23T21:34:03.782Z",
+        "product_id": "6cbd3a7a-e8e6-46ad-8f57-0b87855ce143",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac72eed7-d286-4f6c-bf4d-962704abea8d",
+        "rating": 35181,
+        "comment": "Excellent quality",
+        "date": "2023-08-24T10:13:40.694Z",
+        "created_at": "2023-08-24T05:54:47.190Z",
+        "updated_at": "2023-08-23T20:21:51.029Z",
+        "product_id": "177827a6-0c4e-4ef8-9791-458757879e71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66e9db44-47c0-4d48-8b6e-58ae30eae51f",
+        "rating": 27438,
+        "comment": "Impressive performance",
+        "date": "2023-08-24T09:46:45.559Z",
+        "created_at": "2023-08-23T19:34:27.768Z",
+        "updated_at": "2023-08-24T06:06:53.896Z",
+        "product_id": "0e9d0dbe-ef30-4f18-8842-2316cf5ce741",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6337906f-ffc1-4787-b101-0c736ef473d4",
+        "rating": 69697,
+        "comment": "Very satisfied",
+        "date": "2023-08-24T17:36:28.182Z",
+        "created_at": "2023-08-23T23:46:15.149Z",
+        "updated_at": "2023-08-23T23:59:03.027Z",
+        "product_id": "93065ce7-94d6-4cd2-956b-f0111b989866",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "f368c019-5b2d-4a61-aa3a-38bf472460b1",
+        "start_date": "2023-08-24T07:49:21.203Z",
+        "end_date": "2023-08-24T15:49:32.981Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T18:45:08.938Z",
+        "updated_at": "2023-08-24T12:48:40.450Z",
+        "product_id": "177827a6-0c4e-4ef8-9791-458757879e71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4c1f6fb-2441-4d86-b9e0-dca427136e74",
+        "start_date": "2023-08-24T02:45:18.651Z",
+        "end_date": "2023-08-24T04:06:10.978Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T16:33:08.304Z",
+        "updated_at": "2023-08-24T14:42:54.955Z",
+        "product_id": "93065ce7-94d6-4cd2-956b-f0111b989866",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dae906eb-383b-4a9d-aeea-942706d7858e",
+        "start_date": "2023-08-24T06:41:21.665Z",
+        "end_date": "2023-08-24T15:25:09.126Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T08:14:20.794Z",
+        "updated_at": "2023-08-24T18:21:31.481Z",
+        "product_id": "93065ce7-94d6-4cd2-956b-f0111b989866",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d8df8c1-3568-47ff-b244-cdaa6eb7d34d",
+        "start_date": "2023-08-23T22:26:44.996Z",
+        "end_date": "2023-08-24T04:04:04.943Z",
+        "status": "Expired",
+        "created_at": "2023-08-24T19:01:36.735Z",
+        "updated_at": "2023-08-23T20:29:17.436Z",
+        "product_id": "dbcc85b8-ee68-4b3c-8384-517bcc84e62b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e27dd8a-0ed0-42dd-be5f-8cb17d14d4ad",
+        "start_date": "2023-08-24T05:13:24.719Z",
+        "end_date": "2023-08-24T14:19:52.451Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T18:34:58.101Z",
+        "updated_at": "2023-08-24T03:37:41.852Z",
+        "product_id": "6cbd3a7a-e8e6-46ad-8f57-0b87855ce143",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "414e471d-0f26-4035-bf50-4effb8a8bc7d",
+        "purchase_date": "2023-08-24T18:18:32.809Z",
+        "status": "Processing",
+        "price": 29140,
+        "created_at": "2023-08-24T13:03:57.997Z",
+        "updated_at": "2023-08-23T22:06:48.275Z",
+        "product_id": "177827a6-0c4e-4ef8-9791-458757879e71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeae5dd5-f230-47b8-8039-d36cbcc9da5f",
+        "purchase_date": "2023-08-24T03:08:10.214Z",
+        "status": "Shipped",
+        "price": 44459,
+        "created_at": "2023-08-24T00:04:19.439Z",
+        "updated_at": "2023-08-23T23:45:37.874Z",
+        "product_id": "0e9d0dbe-ef30-4f18-8842-2316cf5ce741",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf251eb5-08e9-493f-ba8e-e482096ebb87",
+        "purchase_date": "2023-08-24T12:20:37.171Z",
+        "status": "Delivered",
+        "price": 95157,
+        "created_at": "2023-08-23T21:19:33.980Z",
+        "updated_at": "2023-08-24T06:52:11.191Z",
+        "product_id": "177827a6-0c4e-4ef8-9791-458757879e71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06e4a36f-0daa-419b-a2c1-7c1dfe48a393",
+        "purchase_date": "2023-08-24T17:34:06.737Z",
+        "status": "Cancelled",
+        "price": 12064,
+        "created_at": "2023-08-24T17:53:53.780Z",
+        "updated_at": "2023-08-23T20:39:51.110Z",
+        "product_id": "0e9d0dbe-ef30-4f18-8842-2316cf5ce741",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d3fd907-9aaa-484a-9a16-93929f7b53af",
+        "purchase_date": "2023-08-24T17:46:53.700Z",
+        "status": "Refunded",
+        "price": 27727,
+        "created_at": "2023-08-24T01:34:50.399Z",
+        "updated_at": "2023-08-24T01:17:05.533Z",
+        "product_id": "0e9d0dbe-ef30-4f18-8842-2316cf5ce741",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "db72e95a-2ec7-496e-a71a-59331cc94132",
+        "email": "Clement.Kuhn82@gmail.com",
+        "firstName": "Eusebio",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/351.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e62161b-ca55-4fd8-8bc1-561b35f1a95b",
+        "email": "Zola65@yahoo.com",
+        "firstName": "Izabella",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95573544",
+        "tenantId": null
+      },
+      {
+        "reference": "7070c85f-96c4-4596-8160-686d459c665a",
+        "email": "Cody.Frami@hotmail.com",
+        "firstName": "Bailey",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15a6642f-5509-4e44-a44c-1eb1dd4d33bd",
+        "email": "Ardella.Mills36@yahoo.com",
+        "firstName": "Lawson",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1066.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4b53222-2cd7-4959-9871-a043599da2b6",
+        "email": "Alan.OKeefe@gmail.com",
+        "firstName": "Mohammed",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32816214",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "9581392f-d32f-4bfd-8b38-ebc56aaed8fb",
+        "name": "iPhone 12",
+        "description": "A high-end smartphone with advanced features.",
+        "status": "Available",
+        "price": 76584,
+        "rental_price": 27478,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T07:00:06.175Z",
+        "updated_at": "2023-08-23T23:45:55.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67047e65-5f71-466d-a7e3-01f1be9185e9",
+        "name": "Samsung Galaxy S21",
+        "description": "A powerful gaming console with stunning graphics.",
+        "status": "Out of stock",
+        "price": 19633,
+        "rental_price": 10231,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T05:00:56.689Z",
+        "updated_at": "2023-08-24T12:29:57.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d3d6f41-fa6f-430a-a31d-3240c79a0064",
+        "name": "Sony PlayStation 5",
+        "description": "A professional-grade mirrorless camera.",
+        "status": "Coming soon",
+        "price": 56089,
+        "rental_price": 47055,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T06:19:37.275Z",
+        "updated_at": "2023-08-23T21:40:11.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79692ff4-3066-43df-98ae-80578630de70",
+        "name": "Canon EOS R5",
+        "description": "A compact and portable drone for aerial photography.",
+        "status": "In stock",
+        "price": 95884,
+        "rental_price": 18499,
+        "rental_status": "In stock for rent",
+        "created_at": "2023-08-24T05:32:10.323Z",
+        "updated_at": "2023-08-24T02:34:18.162Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab2923d4-ef65-4f31-af3f-818856c7fe90",
+        "name": "DJI Mavic Air 2",
+        "description": "consequatur eveniet odit",
+        "status": "Limited stock",
+        "price": 36368,
+        "rental_price": 59329,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-24T07:53:19.114Z",
+        "updated_at": "2023-08-23T21:19:34.481Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "cce0c728-98ec-4fcd-a6c7-fca0f049e5b0",
+        "rating": 82318,
+        "comment": "Great product!",
+        "date": "2023-08-24T13:23:56.487Z",
+        "created_at": "2023-08-24T05:43:07.176Z",
+        "updated_at": "2023-08-24T11:34:52.383Z",
+        "product_id": "4d3d6f41-fa6f-430a-a31d-3240c79a0064",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fd23e22-49b4-4bb6-abec-e4a3e1dd4a6f",
+        "rating": 11955,
+        "comment": "Highly recommended.",
+        "date": "2023-08-24T14:14:08.264Z",
+        "created_at": "2023-08-23T19:41:11.426Z",
+        "updated_at": "2023-08-23T22:29:49.480Z",
+        "product_id": "79692ff4-3066-43df-98ae-80578630de70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "856e2452-12fd-4ec2-a2f2-50dd8af7f8ad",
+        "rating": 54525,
+        "comment": "Not satisfied with the quality.",
+        "date": "2023-08-24T07:39:41.652Z",
+        "created_at": "2023-08-24T17:10:29.187Z",
+        "updated_at": "2023-08-24T17:10:19.177Z",
+        "product_id": "ab2923d4-ef65-4f31-af3f-818856c7fe90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e8761b2-77e4-475b-83fb-dfe7b87849d6",
+        "rating": 69775,
+        "comment": "Impressive performance.",
+        "date": "2023-08-24T06:21:47.141Z",
+        "created_at": "2023-08-23T21:48:47.392Z",
+        "updated_at": "2023-08-23T22:29:27.065Z",
+        "product_id": "79692ff4-3066-43df-98ae-80578630de70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ddbbad7-6e57-40d3-ac99-62e3ddd52e5e",
+        "rating": 72492,
+        "comment": "Average product.",
+        "date": "2023-08-23T22:03:39.957Z",
+        "created_at": "2023-08-24T14:18:59.994Z",
+        "updated_at": "2023-08-24T13:03:16.214Z",
+        "product_id": "67047e65-5f71-466d-a7e3-01f1be9185e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "b53b8d75-51d6-4c40-888f-a8a1e95a088c",
+        "start_date": "2023-08-24T04:33:32.936Z",
+        "end_date": "2023-08-23T22:09:00.995Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T04:40:16.981Z",
+        "updated_at": "2023-08-23T19:17:56.508Z",
+        "product_id": "ab2923d4-ef65-4f31-af3f-818856c7fe90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06aa8b4d-1379-4cb1-b468-938b453878f4",
+        "start_date": "2023-08-24T05:04:08.734Z",
+        "end_date": "2023-08-24T18:11:50.698Z",
+        "status": "Pending",
+        "created_at": "2023-08-23T19:51:51.922Z",
+        "updated_at": "2023-08-24T04:28:47.453Z",
+        "product_id": "9581392f-d32f-4bfd-8b38-ebc56aaed8fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cfb9592-9d24-46c7-8dcc-c15a2c511c22",
+        "start_date": "2023-08-24T11:37:20.974Z",
+        "end_date": "2023-08-24T08:39:25.516Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T22:56:39.069Z",
+        "updated_at": "2023-08-23T22:29:49.696Z",
+        "product_id": "ab2923d4-ef65-4f31-af3f-818856c7fe90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f06c5342-e84d-4251-ba92-db2c03ce60b0",
+        "start_date": "2023-08-24T17:25:36.489Z",
+        "end_date": "2023-08-24T17:39:39.256Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T00:50:44.750Z",
+        "updated_at": "2023-08-24T04:38:01.779Z",
+        "product_id": "4d3d6f41-fa6f-430a-a31d-3240c79a0064",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "791a7bfe-6c5e-4ad9-8794-8e08b087a697",
+        "start_date": "2023-08-24T12:58:39.075Z",
+        "end_date": "2023-08-24T18:29:59.293Z",
+        "status": "On hold",
+        "created_at": "2023-08-24T10:46:12.757Z",
+        "updated_at": "2023-08-24T12:03:53.764Z",
+        "product_id": "9581392f-d32f-4bfd-8b38-ebc56aaed8fb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "2fcd18af-47f1-4dd1-bb81-9d3fdfab0931",
+        "purchase_date": "2023-08-24T11:14:09.160Z",
+        "status": "Successful",
+        "price": 38935,
+        "created_at": "2023-08-23T20:15:38.871Z",
+        "updated_at": "2023-08-23T21:30:54.276Z",
+        "product_id": "ab2923d4-ef65-4f31-af3f-818856c7fe90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2da48102-a240-431f-8433-96fd8f90081f",
+        "purchase_date": "2023-08-24T15:45:35.522Z",
+        "status": "Failed",
+        "price": 60720,
+        "created_at": "2023-08-23T20:12:43.773Z",
+        "updated_at": "2023-08-24T19:01:38.172Z",
+        "product_id": "9581392f-d32f-4bfd-8b38-ebc56aaed8fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "252746fa-2232-4ac9-b6f2-6d476c7c5ea5",
+        "purchase_date": "2023-08-24T18:22:20.246Z",
+        "status": "Processing",
+        "price": 74839,
+        "created_at": "2023-08-24T16:25:52.798Z",
+        "updated_at": "2023-08-24T13:53:30.252Z",
+        "product_id": "67047e65-5f71-466d-a7e3-01f1be9185e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f75e1d2-f662-463f-960a-fb06c108470b",
+        "purchase_date": "2023-08-24T17:15:50.318Z",
+        "status": "Refunded",
+        "price": 849,
+        "created_at": "2023-08-24T15:31:05.318Z",
+        "updated_at": "2023-08-24T11:11:41.691Z",
+        "product_id": "4d3d6f41-fa6f-430a-a31d-3240c79a0064",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a45b3ad-2138-460c-abb3-0f19bceb95da",
+        "purchase_date": "2023-08-24T17:26:34.181Z",
+        "status": "Cancelled",
+        "price": 97727,
+        "created_at": "2023-08-24T07:37:42.798Z",
+        "updated_at": "2023-08-24T07:21:38.247Z",
+        "product_id": "67047e65-5f71-466d-a7e3-01f1be9185e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bcfc6462-efff-4427-9dbb-f280b04294f6",
+        "email": "Archibald.Orn@hotmail.com",
+        "firstName": "Allie",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1160.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b75ecf3c-f4c7-420e-ad5d-311f708e581b",
+        "email": "Mary.Pfeffer90@hotmail.com",
+        "firstName": "Kenna",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35067647",
+        "tenantId": null
+      },
+      {
+        "reference": "babd4cdf-66af-4b42-b3d2-63399d9990b9",
+        "email": "Niko.Robel@hotmail.com",
+        "firstName": "Ali",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e7c4ff9-8c71-419f-b73f-b0fefa15c99c",
+        "email": "Milan_Rau52@hotmail.com",
+        "firstName": "Bailey",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/778.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e881303d-f3d1-4de4-9958-155710c0443c",
+        "email": "Jaqueline.Windler4@gmail.com",
+        "firstName": "Erich",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6700716",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "cf569304-7568-4174-a934-628be813fa80",
+        "name": "iPhone X",
+        "description": "High-end smartphone with advanced features",
+        "status": "Available",
+        "price": 26870,
+        "rental_price": 20441,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T13:46:41.432Z",
+        "updated_at": "2023-08-23T19:16:52.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718c6600-e427-43e4-8f23-2f500560d061",
+        "name": "Samsung Galaxy S10",
+        "description": "Powerful gaming console for immersive gameplay",
+        "status": "Out of stock",
+        "price": 36235,
+        "rental_price": 47134,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T05:51:24.505Z",
+        "updated_at": "2023-08-24T18:01:07.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7902f3f-dbd4-4a09-b756-3ce4dc31e475",
+        "name": "Sony PlayStation 4",
+        "description": "Professional-grade DSLR camera for stunning photos",
+        "status": "Coming soon",
+        "price": 74641,
+        "rental_price": 74974,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-24T10:29:04.400Z",
+        "updated_at": "2023-08-24T06:12:08.628Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38f04ab6-2cee-4897-b321-6d149da9c1cd",
+        "name": "Canon EOS 5D Mark IV",
+        "description": "Top-of-the-line laptop for productivity and creativity",
+        "status": "Limited stock",
+        "price": 29679,
+        "rental_price": 67060,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-24T03:39:43.602Z",
+        "updated_at": "2023-08-24T14:33:26.556Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28417622-e7de-4599-82d3-bedc5dc8d1af",
+        "name": "MacBook Pro",
+        "description": "minima quas quae",
+        "status": "Pre-order",
+        "price": 60197,
+        "rental_price": 86786,
+        "rental_status": "Pre-order for rent",
+        "created_at": "2023-08-23T23:48:08.742Z",
+        "updated_at": "2023-08-24T17:25:27.161Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "5a673e34-cf49-4fb7-8adb-54445cbd59d4",
+        "rating": 13480,
+        "comment": "Great product!",
+        "date": "2023-08-23T23:42:29.264Z",
+        "created_at": "2023-08-24T13:09:27.337Z",
+        "updated_at": "2023-08-23T21:09:04.364Z",
+        "product_id": "a7902f3f-dbd4-4a09-b756-3ce4dc31e475",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "870d7394-d0ab-4eaa-9580-869769a81913",
+        "rating": 81664,
+        "comment": "Highly recommended!",
+        "date": "2023-08-24T09:33:22.946Z",
+        "created_at": "2023-08-24T02:54:11.948Z",
+        "updated_at": "2023-08-24T18:24:39.898Z",
+        "product_id": "718c6600-e427-43e4-8f23-2f500560d061",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3a77259-c23c-46fe-a152-8c2c00451eee",
+        "rating": 84295,
+        "comment": "Excellent service!",
+        "date": "2023-08-24T16:13:53.721Z",
+        "created_at": "2023-08-24T10:22:51.543Z",
+        "updated_at": "2023-08-24T02:55:20.173Z",
+        "product_id": "38f04ab6-2cee-4897-b321-6d149da9c1cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6de6acf-60f0-4e7d-9e97-f7c01efffde5",
+        "rating": 32664,
+        "comment": "Very satisfied!",
+        "date": "2023-08-24T18:53:20.567Z",
+        "created_at": "2023-08-24T12:33:20.001Z",
+        "updated_at": "2023-08-24T08:56:15.914Z",
+        "product_id": "718c6600-e427-43e4-8f23-2f500560d061",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e79db801-3374-4750-8934-4690e4cdac4e",
+        "rating": 96971,
+        "comment": "Impressive quality!",
+        "date": "2023-08-24T01:39:42.103Z",
+        "created_at": "2023-08-24T00:31:56.283Z",
+        "updated_at": "2023-08-24T12:58:13.769Z",
+        "product_id": "38f04ab6-2cee-4897-b321-6d149da9c1cd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "d5df9f81-1bd8-40c1-aa3a-516e70cdbe1c",
+        "start_date": "2023-08-23T20:46:05.849Z",
+        "end_date": "2023-08-23T20:21:20.706Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T07:45:13.536Z",
+        "updated_at": "2023-08-24T16:32:22.165Z",
+        "product_id": "38f04ab6-2cee-4897-b321-6d149da9c1cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72b8eb44-e613-48e5-9ecd-a5b2a9196e2e",
+        "start_date": "2023-08-24T15:12:34.923Z",
+        "end_date": "2023-08-24T04:49:57.259Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T00:10:05.443Z",
+        "updated_at": "2023-08-24T12:00:41.764Z",
+        "product_id": "718c6600-e427-43e4-8f23-2f500560d061",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e5c5155-3398-4ee5-b65b-69cc606367b8",
+        "start_date": "2023-08-24T05:24:46.993Z",
+        "end_date": "2023-08-23T19:24:52.133Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T06:55:42.930Z",
+        "updated_at": "2023-08-24T01:00:48.665Z",
+        "product_id": "cf569304-7568-4174-a934-628be813fa80",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "904119b0-3ed9-4a01-9417-0f47a69e151c",
+        "start_date": "2023-08-24T13:03:22.970Z",
+        "end_date": "2023-08-24T16:43:14.518Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:39:26.329Z",
+        "updated_at": "2023-08-24T12:15:28.447Z",
+        "product_id": "a7902f3f-dbd4-4a09-b756-3ce4dc31e475",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75e9f3f6-5575-4f08-a4a8-76c3e55e3095",
+        "start_date": "2023-08-24T18:54:55.341Z",
+        "end_date": "2023-08-24T13:35:45.070Z",
+        "status": "Expired",
+        "created_at": "2023-08-24T17:38:26.576Z",
+        "updated_at": "2023-08-23T22:39:50.210Z",
+        "product_id": "cf569304-7568-4174-a934-628be813fa80",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "211e43fb-8275-4550-8afa-b77f65db941a",
+        "purchase_date": "2023-08-24T09:05:07.676Z",
+        "status": "Successful",
+        "price": 24228,
+        "created_at": "2023-08-23T22:52:40.064Z",
+        "updated_at": "2023-08-23T20:11:20.691Z",
+        "product_id": "a7902f3f-dbd4-4a09-b756-3ce4dc31e475",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6067003b-342b-4c3f-8eca-81e7f03331c5",
+        "purchase_date": "2023-08-24T06:03:51.799Z",
+        "status": "Failed",
+        "price": 53406,
+        "created_at": "2023-08-24T03:22:12.909Z",
+        "updated_at": "2023-08-24T00:49:03.749Z",
+        "product_id": "28417622-e7de-4599-82d3-bedc5dc8d1af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96916fe4-eeac-4487-b949-312bdb4d85e4",
+        "purchase_date": "2023-08-23T19:22:43.314Z",
+        "status": "Processing",
+        "price": 76474,
+        "created_at": "2023-08-24T10:03:40.995Z",
+        "updated_at": "2023-08-23T23:11:00.345Z",
+        "product_id": "28417622-e7de-4599-82d3-bedc5dc8d1af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e38759f-36de-44fe-993b-6c7a22b2f456",
+        "purchase_date": "2023-08-24T08:14:08.329Z",
+        "status": "Refunded",
+        "price": 50280,
+        "created_at": "2023-08-24T10:29:52.677Z",
+        "updated_at": "2023-08-24T05:58:35.414Z",
+        "product_id": "38f04ab6-2cee-4897-b321-6d149da9c1cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "329ac0a0-252c-4732-ba91-98f0e2dea4c4",
+        "purchase_date": "2023-08-24T13:54:56.390Z",
+        "status": "Pending",
+        "price": 27903,
+        "created_at": "2023-08-24T04:49:38.812Z",
+        "updated_at": "2023-08-23T20:24:57.183Z",
+        "product_id": "718c6600-e427-43e4-8f23-2f500560d061",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac362cf1-3d39-4c0b-8f77-f0c4404f8c92",
+        "email": "Elliot_Mueller@yahoo.com",
+        "firstName": "Abby",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/800.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4345acc8-4a9e-4fe3-ae7b-474db7817640",
+        "email": "Camila12@yahoo.com",
+        "firstName": "Asha",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90761690",
+        "tenantId": null
+      },
+      {
+        "reference": "924daac2-2534-4e91-ba9a-ff47d21693eb",
+        "email": "Hiram_Erdman23@gmail.com",
+        "firstName": "Mekhi",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26288808",
+        "tenantId": null
+      },
+      {
+        "reference": "f094d4f0-a2c3-4448-98d4-dfe90b58357d",
+        "email": "Mustafa.Witting@hotmail.com",
+        "firstName": "Leonora",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4181838",
+        "tenantId": null
+      },
+      {
+        "reference": "7bd57463-9a8b-4545-97d1-0f184dc1cf3d",
+        "email": "Trudie_Balistreri97@hotmail.com",
+        "firstName": "Meta",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10647150",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "4e4a78d5-3508-4c3a-9e13-2fd6b5c72e82",
+        "name": "iPhone X",
+        "description": "High-end smartphone with advanced features",
+        "status": "Available",
+        "price": 45862,
+        "rental_price": 52710,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T01:32:10.854Z",
+        "updated_at": "2023-08-24T17:54:38.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "name": "Samsung Galaxy S10",
+        "description": "Powerful gaming console with stunning graphics",
+        "status": "Out of stock",
+        "price": 51882,
+        "rental_price": 50834,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T18:41:53.195Z",
+        "updated_at": "2023-08-24T18:30:38.322Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ddcaf6b-e3d0-4254-9847-7aa6078497e8",
+        "name": "Sony PlayStation 4",
+        "description": "Professional-grade DSLR camera for photography enthusiasts",
+        "status": "Pre-order",
+        "price": 74764,
+        "rental_price": 47096,
+        "rental_status": "Rent pending",
+        "created_at": "2023-08-24T10:48:05.117Z",
+        "updated_at": "2023-08-24T00:13:04.930Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13afa83c-2eef-4971-b5c6-65128f769913",
+        "name": "Canon EOS 5D Mark IV",
+        "description": "Premium laptop for productivity and creativity",
+        "status": "Limited stock",
+        "price": 60339,
+        "rental_price": 38706,
+        "rental_status": "Rented out",
+        "created_at": "2023-08-23T20:54:32.039Z",
+        "updated_at": "2023-08-24T04:52:32.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f1185e8-93b3-4e8c-9567-18f8f27d3484",
+        "name": "MacBook Pro",
+        "description": "Smart TV with exceptional picture quality",
+        "status": "Coming soon",
+        "price": 62023,
+        "rental_price": 33895,
+        "rental_status": "Returned",
+        "created_at": "2023-08-23T19:17:46.529Z",
+        "updated_at": "2023-08-24T00:38:39.552Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "48469034-5d2e-4123-8d80-4a0d4825b58a",
+        "rating": 33412,
+        "comment": "Great product!",
+        "date": "2023-08-23T20:21:42.170Z",
+        "created_at": "2023-08-23T21:25:33.153Z",
+        "updated_at": "2023-08-24T00:49:51.280Z",
+        "product_id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96aae9b1-42eb-4e26-9a6a-77b2ed0ad733",
+        "rating": 53085,
+        "comment": "Highly recommended!",
+        "date": "2023-08-24T00:19:46.147Z",
+        "created_at": "2023-08-24T02:09:13.055Z",
+        "updated_at": "2023-08-24T16:56:13.209Z",
+        "product_id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e76590f-be5c-440c-b509-892f8ec31120",
+        "rating": 87886,
+        "comment": "Excellent customer service!",
+        "date": "2023-08-24T06:06:41.905Z",
+        "created_at": "2023-08-24T17:14:36.428Z",
+        "updated_at": "2023-08-24T15:07:01.980Z",
+        "product_id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad5e1b7a-bae9-41f5-b7c4-3b4d1350a803",
+        "rating": 67220,
+        "comment": "Impressive quality!",
+        "date": "2023-08-23T21:44:41.133Z",
+        "created_at": "2023-08-23T21:58:04.881Z",
+        "updated_at": "2023-08-24T06:38:14.886Z",
+        "product_id": "4e4a78d5-3508-4c3a-9e13-2fd6b5c72e82",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09d1ae6a-2f6b-4352-9ee7-4f13a08fe5a0",
+        "rating": 21294,
+        "comment": "Satisfied with the purchase.",
+        "date": "2023-08-24T01:09:31.052Z",
+        "created_at": "2023-08-23T22:21:02.597Z",
+        "updated_at": "2023-08-24T18:33:18.869Z",
+        "product_id": "4e4a78d5-3508-4c3a-9e13-2fd6b5c72e82",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "696f7da4-6a55-495d-8881-56a2bb5088df",
+        "start_date": "2023-08-24T12:01:24.116Z",
+        "end_date": "2023-08-23T22:05:37.061Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-24T08:52:59.685Z",
+        "updated_at": "2023-08-24T12:36:17.249Z",
+        "product_id": "4e4a78d5-3508-4c3a-9e13-2fd6b5c72e82",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c245d87-f0c5-49d9-816d-f7f856353308",
+        "start_date": "2023-08-24T11:05:20.887Z",
+        "end_date": "2023-08-23T21:34:56.677Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T02:33:30.017Z",
+        "updated_at": "2023-08-24T01:31:50.221Z",
+        "product_id": "13afa83c-2eef-4971-b5c6-65128f769913",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99b14989-1d27-445c-a972-454e988bee90",
+        "start_date": "2023-08-24T06:35:32.316Z",
+        "end_date": "2023-08-23T19:25:10.642Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T21:23:47.845Z",
+        "updated_at": "2023-08-23T20:43:49.427Z",
+        "product_id": "4f1185e8-93b3-4e8c-9567-18f8f27d3484",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77c9ac7c-20c9-4a9f-ad54-86733d32a2f2",
+        "start_date": "2023-08-24T15:31:46.911Z",
+        "end_date": "2023-08-24T07:19:50.832Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T18:38:25.741Z",
+        "updated_at": "2023-08-24T08:50:39.804Z",
+        "product_id": "13afa83c-2eef-4971-b5c6-65128f769913",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f079689-f508-48b2-8506-4c8dd766ec11",
+        "start_date": "2023-08-23T21:44:21.475Z",
+        "end_date": "2023-08-24T07:53:27.143Z",
+        "status": "Expired",
+        "created_at": "2023-08-24T08:56:32.641Z",
+        "updated_at": "2023-08-24T03:59:17.822Z",
+        "product_id": "13afa83c-2eef-4971-b5c6-65128f769913",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "18239a0f-6e49-4136-8b9e-6c78bd7fd791",
+        "purchase_date": "2023-08-24T10:08:36.245Z",
+        "status": "Pending payment",
+        "price": 3582,
+        "created_at": "2023-08-23T20:11:37.916Z",
+        "updated_at": "2023-08-24T09:02:04.723Z",
+        "product_id": "4e4a78d5-3508-4c3a-9e13-2fd6b5c72e82",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d32214c-4602-4902-9590-1920a05542d8",
+        "purchase_date": "2023-08-24T14:47:14.964Z",
+        "status": "Processing",
+        "price": 51427,
+        "created_at": "2023-08-24T14:41:20.171Z",
+        "updated_at": "2023-08-24T03:03:21.270Z",
+        "product_id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9852b910-c0e6-4620-b3d9-ce00b6ae85fc",
+        "purchase_date": "2023-08-23T21:22:21.763Z",
+        "status": "Shipped",
+        "price": 65264,
+        "created_at": "2023-08-24T13:21:35.868Z",
+        "updated_at": "2023-08-24T11:46:19.509Z",
+        "product_id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa5e5d93-11ef-4810-bc8e-774553229963",
+        "purchase_date": "2023-08-24T09:48:00.729Z",
+        "status": "Delivered",
+        "price": 67851,
+        "created_at": "2023-08-23T22:16:54.625Z",
+        "updated_at": "2023-08-24T00:24:28.653Z",
+        "product_id": "4f1185e8-93b3-4e8c-9567-18f8f27d3484",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1f08042-9287-4b8c-9e3c-48e3ff3723d1",
+        "purchase_date": "2023-08-24T06:22:31.716Z",
+        "status": "Returned",
+        "price": 39229,
+        "created_at": "2023-08-24T15:12:29.591Z",
+        "updated_at": "2023-08-24T10:22:46.321Z",
+        "product_id": "6181edb9-09bd-42ef-959a-10a971b9ef3d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "35f01681-1166-4531-a86f-2599c67bbd54",
+        "email": "Jeffery40@hotmail.com",
+        "firstName": "Chelsie",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42134685",
+        "tenantId": null
+      },
+      {
+        "reference": "85a3e3e1-0f37-44cb-942e-a6b754d33dbc",
+        "email": "Roscoe82@hotmail.com",
+        "firstName": "Brayan",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "faa33ef9-021a-4c5d-9ab8-ed5c9794dd5d",
+        "email": "Martine.Dare-Lebsack26@gmail.com",
+        "firstName": "Alisha",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87437718",
+        "tenantId": null
+      },
+      {
+        "reference": "699b6005-a5d6-49af-80fb-0343d8912203",
+        "email": "Michel.Weber@gmail.com",
+        "firstName": "Hunter",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16066872",
+        "tenantId": null
+      },
+      {
+        "reference": "45c2d291-02e8-4c5f-a0de-602e4c791dc8",
+        "email": "Meta_Hane@hotmail.com",
+        "firstName": "Myrtie",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "0b21fe3b-bc86-423f-ba90-603d13cbe286",
+        "name": "iPhone X",
+        "description": "A high-end smartphone with advanced features",
+        "status": "Available",
+        "price": 90389,
+        "rental_price": 79448,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T11:48:00.891Z",
+        "updated_at": "2023-08-23T20:26:15.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "930f2a66-b48c-429f-a6a5-272864227bc5",
+        "name": "Samsung Galaxy S10",
+        "description": "A powerful gaming console for immersive gameplay",
+        "status": "Out of stock",
+        "price": 75745,
+        "rental_price": 88031,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T09:00:26.532Z",
+        "updated_at": "2023-08-24T18:05:47.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4415d72a-cfd1-45e8-ac02-3dce96b781fe",
+        "name": "Sony PlayStation 4",
+        "description": "A professional-grade DSLR camera for stunning photos",
+        "status": "Limited stock",
+        "price": 23987,
+        "rental_price": 87134,
+        "rental_status": "Currently rented",
+        "created_at": "2023-08-24T00:11:51.013Z",
+        "updated_at": "2023-08-24T02:57:56.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e08df74a-6e59-4664-a200-78bcba718690",
+        "name": "Canon EOS 5D Mark IV",
+        "description": "A stylish and comfortable pair of sneakers",
+        "status": "Pre-order",
+        "price": 58897,
+        "rental_price": 99661,
+        "rental_status": "Reserved for rental",
+        "created_at": "2023-08-24T00:27:00.693Z",
+        "updated_at": "2023-08-24T04:47:28.300Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "896f2dd1-90f5-4295-8b96-e6666d9473b3",
+        "name": "Nike Air Max 90",
+        "description": "A sleek and modern smart TV for an enhanced viewing experience",
+        "status": "Coming soon",
+        "price": 71238,
+        "rental_price": 80000,
+        "rental_status": "Renting soon",
+        "created_at": "2023-08-24T14:25:35.444Z",
+        "updated_at": "2023-08-24T15:26:06.554Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "3913bacc-cb4b-4214-8b63-1aa51763f016",
+        "rating": 64721,
+        "comment": "Great product!",
+        "date": "2023-08-24T00:15:05.471Z",
+        "created_at": "2023-08-24T16:09:09.792Z",
+        "updated_at": "2023-08-24T17:41:31.146Z",
+        "product_id": "0b21fe3b-bc86-423f-ba90-603d13cbe286",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dd9e766-2d7d-4f04-80e8-5e6d1f6ec2c5",
+        "rating": 58952,
+        "comment": "Highly recommended!",
+        "date": "2023-08-24T15:59:14.098Z",
+        "created_at": "2023-08-24T17:52:23.091Z",
+        "updated_at": "2023-08-24T13:26:52.041Z",
+        "product_id": "4415d72a-cfd1-45e8-ac02-3dce96b781fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "489a8f9b-03fe-4bcc-a000-966f664f44aa",
+        "rating": 96313,
+        "comment": "Not satisfied with the quality",
+        "date": "2023-08-23T21:52:17.423Z",
+        "created_at": "2023-08-24T07:05:13.889Z",
+        "updated_at": "2023-08-24T17:26:23.745Z",
+        "product_id": "4415d72a-cfd1-45e8-ac02-3dce96b781fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92d05e29-18b0-478c-92d1-c0ffae7003ab",
+        "rating": 98803,
+        "comment": "Excellent customer service",
+        "date": "2023-08-23T20:40:15.184Z",
+        "created_at": "2023-08-24T02:42:45.721Z",
+        "updated_at": "2023-08-24T14:15:29.745Z",
+        "product_id": "896f2dd1-90f5-4295-8b96-e6666d9473b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "101df896-ad89-4b9f-bcfe-9457303213d1",
+        "rating": 61398,
+        "comment": "Impressive performance",
+        "date": "2023-08-24T14:01:48.123Z",
+        "created_at": "2023-08-24T04:00:15.547Z",
+        "updated_at": "2023-08-24T04:42:52.697Z",
+        "product_id": "930f2a66-b48c-429f-a6a5-272864227bc5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "cdfbeea4-72b0-4b48-a0f2-5eb7608753e1",
+        "start_date": "2023-08-24T02:56:39.594Z",
+        "end_date": "2023-08-24T02:27:50.695Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-23T20:39:46.058Z",
+        "updated_at": "2023-08-24T15:35:20.126Z",
+        "product_id": "930f2a66-b48c-429f-a6a5-272864227bc5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc467447-c453-4690-8446-df9ceab998f5",
+        "start_date": "2023-08-24T02:39:42.759Z",
+        "end_date": "2023-08-23T23:04:21.652Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T00:59:12.289Z",
+        "updated_at": "2023-08-24T18:08:19.013Z",
+        "product_id": "e08df74a-6e59-4664-a200-78bcba718690",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dd3c3e1-5423-400e-a0a9-6e2f18106a7b",
+        "start_date": "2023-08-24T08:52:11.760Z",
+        "end_date": "2023-08-24T16:24:20.902Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T10:18:21.944Z",
+        "updated_at": "2023-08-24T03:15:47.001Z",
+        "product_id": "4415d72a-cfd1-45e8-ac02-3dce96b781fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d316f878-0c93-46c7-8887-32b28ba0c5b6",
+        "start_date": "2023-08-23T22:11:09.943Z",
+        "end_date": "2023-08-23T19:48:11.906Z",
+        "status": "Expired",
+        "created_at": "2023-08-23T23:31:33.513Z",
+        "updated_at": "2023-08-24T15:09:15.989Z",
+        "product_id": "896f2dd1-90f5-4295-8b96-e6666d9473b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8e69d22-1667-4fe3-b1ec-b38fa2d14208",
+        "start_date": "2023-08-24T18:05:11.494Z",
+        "end_date": "2023-08-24T06:01:56.334Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T13:40:59.128Z",
+        "updated_at": "2023-08-24T15:05:07.328Z",
+        "product_id": "896f2dd1-90f5-4295-8b96-e6666d9473b3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "32fc3509-65ad-4ced-957a-c09360750a73",
+        "purchase_date": "2023-08-23T21:45:44.702Z",
+        "status": "Processing",
+        "price": 10955,
+        "created_at": "2023-08-24T17:21:58.915Z",
+        "updated_at": "2023-08-23T22:55:07.295Z",
+        "product_id": "4415d72a-cfd1-45e8-ac02-3dce96b781fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19fecc2c-6c76-4738-bb10-e4206b9d5bb7",
+        "purchase_date": "2023-08-24T05:20:44.961Z",
+        "status": "Shipped",
+        "price": 68299,
+        "created_at": "2023-08-24T04:14:46.096Z",
+        "updated_at": "2023-08-24T12:58:50.506Z",
+        "product_id": "e08df74a-6e59-4664-a200-78bcba718690",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ee34a28-212b-46db-9ad1-cd04bb4597af",
+        "purchase_date": "2023-08-24T01:00:21.899Z",
+        "status": "Delivered",
+        "price": 26405,
+        "created_at": "2023-08-24T01:12:40.607Z",
+        "updated_at": "2023-08-24T11:21:52.451Z",
+        "product_id": "0b21fe3b-bc86-423f-ba90-603d13cbe286",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb7e1758-7301-4074-add8-86fc965d4c8e",
+        "purchase_date": "2023-08-24T07:19:03.378Z",
+        "status": "Returned",
+        "price": 72746,
+        "created_at": "2023-08-24T16:05:47.494Z",
+        "updated_at": "2023-08-24T09:41:30.497Z",
+        "product_id": "930f2a66-b48c-429f-a6a5-272864227bc5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbd413b5-8f20-4eeb-9bbf-28da1ded0440",
+        "purchase_date": "2023-08-24T07:53:33.550Z",
+        "status": "Refunded",
+        "price": 2673,
+        "created_at": "2023-08-23T22:08:58.161Z",
+        "updated_at": "2023-08-24T06:10:05.593Z",
+        "product_id": "896f2dd1-90f5-4295-8b96-e6666d9473b3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2621caf-22a1-4d75-b3a2-fd4d88569098",
+        "email": "Furman.McKenzie@gmail.com",
+        "firstName": "Mariah",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61931536",
+        "tenantId": null
+      },
+      {
+        "reference": "aa7ce046-31cd-478f-ac32-0460539bbf3b",
+        "email": "Dangelo_Quitzon71@yahoo.com",
+        "firstName": "Maci",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42712106",
+        "tenantId": null
+      },
+      {
+        "reference": "b412a684-07e4-4e08-89aa-fad54b720c14",
+        "email": "Uriel.Howell15@yahoo.com",
+        "firstName": "Brycen",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87131773",
+        "tenantId": null
+      },
+      {
+        "reference": "7d5c1b77-0107-48eb-8157-80da4b823e66",
+        "email": "Clarabelle38@hotmail.com",
+        "firstName": "Sam",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/729.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7c08a65-2130-4dfc-a9f1-c9fb098a0b28",
+        "email": "Kelley.Robel3@yahoo.com",
+        "firstName": "Adolphus",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46662721",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "44b5f591-b451-42c4-a087-329a0fbc7fb2",
+        "name": "iPhone X",
+        "description": "A high-end smartphone with advanced features",
+        "status": "Available",
+        "price": 37294,
+        "rental_price": 75253,
+        "rental_status": "Available for rent",
+        "created_at": "2023-08-24T06:37:39.428Z",
+        "updated_at": "2023-08-24T03:37:09.756Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d31bdd3e-b776-4008-8808-e9c2e1ab482a",
+        "name": "Samsung Galaxy S10",
+        "description": "A powerful gaming console for immersive gameplay",
+        "status": "Out of stock",
+        "price": 73636,
+        "rental_price": 47658,
+        "rental_status": "Not available for rent",
+        "created_at": "2023-08-24T13:02:15.507Z",
+        "updated_at": "2023-08-24T16:50:34.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "541ac100-fe94-454f-a176-66855073aac2",
+        "name": "Sony PlayStation 4",
+        "description": "A professional-grade DSLR camera for stunning photos",
+        "status": "Pre-order",
+        "price": 13780,
+        "rental_price": 31471,
+        "rental_status": "Coming soon for rent",
+        "created_at": "2023-08-23T21:57:34.146Z",
+        "updated_at": "2023-08-24T18:14:01.516Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25ce68c4-607b-4cd1-afd2-072973fea0a1",
+        "name": "Canon EOS 5D Mark IV",
+        "description": "A top-of-the-line laptop for demanding tasks",
+        "status": "Limited stock",
+        "price": 76776,
+        "rental_price": 38806,
+        "rental_status": "Limited stock for rent",
+        "created_at": "2023-08-23T20:37:45.632Z",
+        "updated_at": "2023-08-24T17:07:15.551Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7196ce2-38a8-47e0-81be-b9d78413b303",
+        "name": "MacBook Pro",
+        "description": "A sleek and stylish smartphone with great performance",
+        "status": "Coming soon",
+        "price": 38668,
+        "rental_price": 52706,
+        "rental_status": "Out of stock for rent",
+        "created_at": "2023-08-24T14:50:41.002Z",
+        "updated_at": "2023-08-24T07:16:24.440Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "62bd975e-8326-428c-8d99-76efe118221c",
+        "rating": 25286,
+        "comment": "Great product!",
+        "date": "2023-08-23T19:33:20.655Z",
+        "created_at": "2023-08-24T15:33:48.779Z",
+        "updated_at": "2023-08-24T01:38:42.162Z",
+        "product_id": "44b5f591-b451-42c4-a087-329a0fbc7fb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dbafb89-0d47-4f56-b089-4d9f737464f2",
+        "rating": 17903,
+        "comment": "Highly recommended!",
+        "date": "2023-08-24T04:49:25.356Z",
+        "created_at": "2023-08-24T07:53:15.326Z",
+        "updated_at": "2023-08-24T11:55:57.022Z",
+        "product_id": "d31bdd3e-b776-4008-8808-e9c2e1ab482a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88efb0ad-e133-4729-9c9c-642f66bc0410",
+        "rating": 41236,
+        "comment": "Excellent service!",
+        "date": "2023-08-24T07:05:56.400Z",
+        "created_at": "2023-08-24T01:20:04.036Z",
+        "updated_at": "2023-08-24T14:19:10.315Z",
+        "product_id": "44b5f591-b451-42c4-a087-329a0fbc7fb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "950663fd-6495-4056-b326-fc43b315fce1",
+        "rating": 19801,
+        "comment": "Good value for money!",
+        "date": "2023-08-23T20:48:22.609Z",
+        "created_at": "2023-08-23T22:11:00.587Z",
+        "updated_at": "2023-08-24T09:24:45.991Z",
+        "product_id": "f7196ce2-38a8-47e0-81be-b9d78413b303",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38bde144-638b-4f0c-aab5-545c3946ebb9",
+        "rating": 97315,
+        "comment": "Impressive quality!",
+        "date": "2023-08-24T02:45:21.518Z",
+        "created_at": "2023-08-24T09:20:51.020Z",
+        "updated_at": "2023-08-23T19:26:09.725Z",
+        "product_id": "f7196ce2-38a8-47e0-81be-b9d78413b303",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "5a4f45b9-18dd-498e-bf47-cb750d1494e6",
+        "start_date": "2023-08-24T09:42:58.852Z",
+        "end_date": "2023-08-24T13:43:18.580Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-23T21:13:58.476Z",
+        "updated_at": "2023-08-23T22:38:36.370Z",
+        "product_id": "541ac100-fe94-454f-a176-66855073aac2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6a25a6b-4b00-4ea3-8b8a-57a7490b019b",
+        "start_date": "2023-08-24T17:33:03.338Z",
+        "end_date": "2023-08-24T09:30:43.222Z",
+        "status": "Pending",
+        "created_at": "2023-08-24T11:39:21.259Z",
+        "updated_at": "2023-08-24T08:21:58.466Z",
+        "product_id": "f7196ce2-38a8-47e0-81be-b9d78413b303",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f936b2bb-9345-414b-b51c-017fae45dfb9",
+        "start_date": "2023-08-24T08:49:33.421Z",
+        "end_date": "2023-08-24T12:35:31.734Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T18:17:07.776Z",
+        "updated_at": "2023-08-23T23:17:52.129Z",
+        "product_id": "25ce68c4-607b-4cd1-afd2-072973fea0a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5f3e197-2e0c-41d2-925c-d4508bdee679",
+        "start_date": "2023-08-24T12:50:04.193Z",
+        "end_date": "2023-08-24T11:40:07.597Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T11:19:43.391Z",
+        "updated_at": "2023-08-24T18:33:15.279Z",
+        "product_id": "d31bdd3e-b776-4008-8808-e9c2e1ab482a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcfe4a0d-e79a-4c23-9a4c-8ce727f370b4",
+        "start_date": "2023-08-24T16:59:23.791Z",
+        "end_date": "2023-08-24T09:43:30.907Z",
+        "status": "Expired",
+        "created_at": "2023-08-24T13:00:51.927Z",
+        "updated_at": "2023-08-24T01:49:57.476Z",
+        "product_id": "44b5f591-b451-42c4-a087-329a0fbc7fb2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "859eb4f1-e2ba-47f9-a743-c8b5a0f63d36",
+        "purchase_date": "2023-08-24T14:43:55.986Z",
+        "status": "Successful",
+        "price": 2945,
+        "created_at": "2023-08-24T02:52:04.908Z",
+        "updated_at": "2023-08-23T20:26:28.320Z",
+        "product_id": "d31bdd3e-b776-4008-8808-e9c2e1ab482a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c025e1a-b047-4e7d-8e0f-f0b26cea9e13",
+        "purchase_date": "2023-08-24T15:40:36.474Z",
+        "status": "Pending",
+        "price": 75175,
+        "created_at": "2023-08-24T03:55:59.197Z",
+        "updated_at": "2023-08-24T07:19:42.606Z",
+        "product_id": "f7196ce2-38a8-47e0-81be-b9d78413b303",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c479348-8489-4fd4-8587-27b2b69eb249",
+        "purchase_date": "2023-08-24T17:37:58.692Z",
+        "status": "Failed",
+        "price": 89654,
+        "created_at": "2023-08-23T22:39:20.564Z",
+        "updated_at": "2023-08-24T11:30:58.125Z",
+        "product_id": "d31bdd3e-b776-4008-8808-e9c2e1ab482a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4afedab4-54cf-45d7-b15b-e8f853ec7ffa",
+        "purchase_date": "2023-08-24T13:18:07.812Z",
+        "status": "Refunded",
+        "price": 46911,
+        "created_at": "2023-08-24T17:47:31.192Z",
+        "updated_at": "2023-08-24T09:58:52.855Z",
+        "product_id": "44b5f591-b451-42c4-a087-329a0fbc7fb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f329a2b3-4bcd-431d-9120-fe67b2ce1050",
+        "purchase_date": "2023-08-23T21:00:22.369Z",
+        "status": "Cancelled",
+        "price": 9235,
+        "created_at": "2023-08-24T08:33:27.987Z",
+        "updated_at": "2023-08-24T13:38:49.801Z",
+        "product_id": "541ac100-fe94-454f-a176-66855073aac2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0fd14e43-5691-4417-a645-31f91c1779ca",
+        "email": "Adriel40@gmail.com",
+        "firstName": "Rachelle",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "26d4f918-05af-4fe9-98e2-e55dd79f22fa",
+        "email": "Michelle34@yahoo.com",
+        "firstName": "Bertram",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c2022a2-3157-46bf-b73a-dfa62d56e32d",
+        "email": "Camylle_Marks54@gmail.com",
+        "firstName": "Vernie",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33309435",
+        "tenantId": null
+      },
+      {
+        "reference": "35486dd2-3973-4308-a75d-f68807749dbd",
+        "email": "Aniya_Roberts85@hotmail.com",
+        "firstName": "Clotilde",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/606.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aca432c9-c05b-4a6c-ab79-b67530b38c0e",
+        "email": "Jerrold_Rau@gmail.com",
+        "firstName": "Johann",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/830.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
